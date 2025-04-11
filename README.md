@@ -45,7 +45,7 @@ cargo run <port>
 ```
 
 ### Client Commands
-Use with the [companion client](https://github.com/ujjwallsrivastavaa/db-cli) or any TCP client.
+Use with the [companion client](https://github.com/ujjwallsrivastavaa/db-client) or any TCP client.
 
 #### Database Operations:
 + `create <dbname>` - Create a new database (optionally with authentication)
@@ -121,4 +121,4 @@ The server supports:
 + Simple TCP protocol (no encryption)
 
 ## Related Projects
-[db-client](https://github.com/ujjwallsrivastavaa/db-cli)  - Companion client application
+[db-client](https://github.com/ujjwallsrivastavaa/db-client)  - Companion client application
