@@ -1,0 +1,10 @@
+services:
+  mydb:
+    image: yash02rajput/db-server:latest
+    container_name: mydb-container
+    ports:
+      - "4000:4000"  
+    volumes:
+      - ./dbs:/app/dbs
+      - ./output.log:/app/output.log
+
